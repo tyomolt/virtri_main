@@ -108,6 +108,7 @@ header {
   
 .header-left {
     float: left;
+    cursor: pointer;
 }
   
 .header-right {
