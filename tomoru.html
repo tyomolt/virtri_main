@@ -13,12 +13,12 @@
     <h1>検索一覧</h1>
     <fieldset>
       <legend>国籍</legend>
-      <label><input type="checkbox"> 日本</label>
-      <label><input type="checkbox"> アメリカ</label>
-      <label><input type="checkbox"> イギリス</label>
+      <label><input type="checkbox">japan</label>
+      <label><input type="checkbox">america</label>
+      <label><input type="checkbox">chinese</label>
       <input type="range" name="evaluation">
-      <label for="evaluation">評価</label>
-      <div id="btn">絞り込み</div>
+      <!-- <label for="evaluation">評価</label> -->
+      <div class="btn" id="btn">絞り込み</div>
     </fieldset>
   </div>
   <section class="person">
@@ -64,7 +64,7 @@
         <li>日本</li>
         <li>評価　3.6</li>
       </ul>
-      <div id="btn">
+      <div class="btn">
         <a href="watanabe.html">承認</a>
       </div>
       <div id="close">閉じる</div>
@@ -88,7 +88,7 @@
         <img src="img/person3.PNG" width="50" height="70">
         <h2>CTC 三郎</h2>
         <li>45歳</li>
-        <li>イギリス</li>
+        <li>中国</li>
         <li>評価　4.2</li>
       </ul>
       <div class="close">詳細を見る</div>
@@ -96,6 +96,14 @@
   </div>
 
   <footer>(c) jyunki.com</footer>
+  
   </script><script src="js/tomoru.js"></script>
+  <h1>こんにちは</h1>
+  <button onclick="sendDataToFirebase()">Firebase にデータ送信</button>
+  <div id="contents"></div>
+  
+      <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"> </script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+      <script src="js/javascript.js"></script>
 </body>
 </html>
