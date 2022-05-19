@@ -17,7 +17,7 @@ footer {
     font-size: 20px;
 }
 
-#open, #close, #btn {
+#open, #close, .btn {
     cursor: pointer;
     background-color: #b1b1b1;
     width: 200px;
@@ -65,4 +65,3 @@ li {
 h1 {
     text-align: center;
 }
-
